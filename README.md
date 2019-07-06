@@ -1,5 +1,5 @@
 # Hardware-Accelerator-for-ACORN-Cipher
-A hardware architecture for accelerating cipher algorithm that was made for lightweight applications such as IoT devices and embedded systems with low power requirements. ACORN Cipher algorithm is originally developed by **Hongjun Wu**. You can get more information from here:
+A hardware architecture for accelerating a cipher algorithm that was made for lightweight applications such as IoT devices and embedded systems with low power requirements. ACORN Cipher algorithm is originally developed by **Hongjun Wu**. You can get more information from here:
 https://www3.ntu.edu.sg/home/wuhj/research/caesar/caesar.html \
 https://cryptography.gmu.edu/athena/index.php?id=CAESAR_source_codes
 
