@@ -139,7 +139,7 @@ Flow chart of hardware communication part of the algorithm is shown in Figure 8.
 </p>
 
 ## 6.	Verification of the Design
-Verification is too important to check the functionality of resultant system that designed. In this project the resultant hardware/software co-design system’s outputs are not matching the reference C code’s outputs. The problem couldn’t be solved. That is, the system works incorrect and outputs only zeros for some reason. As a reason of this situation, execution time comparison between accelerated and the C implementation of the design couldn’t be done in this report.
+In this project, the resultant hardware/software co-design system’s outputs are not matching the reference C code’s outputs. The system works incorrectly and outputs only zeros for some reason. As a result of this situation, execution time comparison between accelerated and the C implementation of the design couldn’t be done right now.
 
 ## 7. Possible Improvements
 The hardware implementations of the “acorn128_enc_onebyte” and “acorn128_dec_onebyte” is nearly identical. Since the program does not calling these functions at the same time while execution, the identical parts of those functions can be implemented in a third IP to achieve a design that uses less area compared to our current design.
