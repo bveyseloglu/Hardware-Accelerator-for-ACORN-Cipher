@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="source.c" path="C:\vivado_2014.4_hls_workspace\soc_proj_hls_deneme_1\source.c"/>
+  </source>
+  <testbench>
+    <originFiles name="tb.c" path="C:\vivado_2014.4_hls_workspace\soc_proj_hls_deneme_1\tb.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

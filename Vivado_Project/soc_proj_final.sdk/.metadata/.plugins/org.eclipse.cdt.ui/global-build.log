@@ -1,0 +1,266 @@
+02:43:54 **** Build of project soc_proj_final_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/acorn128_dec_onebyte_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/acorn128_dec_onebyte_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/acorn128_enc_onebyte_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/acorn128_enc_onebyte_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/acorn128_dec_onebyte_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/acorn128_dec_onebyte_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling acorn128_dec_onebyte"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/acorn128_enc_onebyte_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/acorn128_enc_onebyte_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling acorn128_enc_onebyte"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+02:44:13 **** Build of configuration Debug for project soc_proj_final ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../soc_proj_final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../soc_proj_final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: soc_proj_final.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../soc_proj_final_bsp/ps7_cortexa9_0/lib -o "soc_proj_final.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: soc_proj_final.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size soc_proj_final.elf  |tee "soc_proj_final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22920	   1152	  22564	  46636	   b62c	soc_proj_final.elf
+'Finished building: soc_proj_final.elf.size'
+' '
+02:44:20 **** Auto Build of configuration Debug for project soc_proj_final ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../soc_proj_final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'acorn128_enc_onebyte':
+../src/helloworld.c:78:2: warning: pointer targets in passing argument 3 of 'XAcorn128_enc_onebyte_Write_state_Bytes' differ in signedness [-Wpointer-sign]
+  xil_printf("\r\nbytes written: %x", XAcorn128_enc_onebyte_Write_state_Bytes(&encInst, 0, state, 239));
+  ^
+In file included from ../src/helloworld.c:58:0:
+../../soc_proj_final_bsp/ps7_cortexa9_0/include/xacorn128_enc_onebyte.h:108:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ u32 XAcorn128_enc_onebyte_Write_state_Bytes(XAcorn128_enc_onebyte *InstancePtr, int offset, char *data, int length);
+     ^
+../src/helloworld.c:92:2: warning: pointer targets in passing argument 3 of 'XAcorn128_enc_onebyte_Read_state_Bytes' differ in signedness [-Wpointer-sign]
+  xil_printf(" - bytes read: %x", XAcorn128_enc_onebyte_Read_state_Bytes(&encInst, 0, state, 239));
+  ^
+In file included from ../src/helloworld.c:58:0:
+../../soc_proj_final_bsp/ps7_cortexa9_0/include/xacorn128_enc_onebyte.h:109:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ u32 XAcorn128_enc_onebyte_Read_state_Bytes(XAcorn128_enc_onebyte *InstancePtr, int offset, char *data, int length);
+     ^
+../src/helloworld.c: In function 'acorn128_dec_onebyte':
+../src/helloworld.c:111:2: warning: pointer targets in passing argument 3 of 'XAcorn128_dec_onebyte_Write_state_Bytes' differ in signedness [-Wpointer-sign]
+  XAcorn128_dec_onebyte_Write_state_Bytes(&decInst, 0, state, 239);
+  ^
+In file included from ../src/helloworld.c:56:0:
+../../soc_proj_final_bsp/ps7_cortexa9_0/include/xacorn128_dec_onebyte.h:108:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ u32 XAcorn128_dec_onebyte_Write_state_Bytes(XAcorn128_dec_onebyte *InstancePtr, int offset, char *data, int length);
+     ^
+../src/helloworld.c:125:2: warning: pointer targets in passing argument 3 of 'XAcorn128_dec_onebyte_Read_state_Bytes' differ in signedness [-Wpointer-sign]
+  XAcorn128_dec_onebyte_Read_state_Bytes(&decInst, 0, state, 239);
+  ^
+In file included from ../src/helloworld.c:56:0:
+../../soc_proj_final_bsp/ps7_cortexa9_0/include/xacorn128_dec_onebyte.h:109:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ u32 XAcorn128_dec_onebyte_Read_state_Bytes(XAcorn128_dec_onebyte *InstancePtr, int offset, char *data, int length);
+     ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:383:10: warning: unused variable 'sonuc' [-Wunused-variable]
+      int sonuc = ciphertext[msglen+i];
+          ^
+../src/helloworld.c:356:19: warning: unused variable 'success' [-Wunused-variable]
+     unsigned int  success;
+                   ^
+../src/helloworld.c:355:19: warning: unused variable 'maclen' [-Wunused-variable]
+     unsigned char maclen = 16;
+                   ^
+../src/helloworld.c:353:19: warning: unused variable 'mac' [-Wunused-variable]
+     unsigned char mac[16];
+                   ^
+../src/helloworld.c:346:11: warning: unused variable 'j' [-Wunused-variable]
+     int i,j ;
+           ^
+../src/helloworld.c:345:24: warning: unused variable 's' [-Wunused-variable]
+     unsigned long long s[500];
+                        ^
+../src/helloworld.c:344:21: warning: unused variable 'state' [-Wunused-variable]
+     unsigned char t,state[500];
+                     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: soc_proj_final.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../soc_proj_final_bsp/ps7_cortexa9_0/lib -o "soc_proj_final.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: soc_proj_final.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size soc_proj_final.elf  |tee "soc_proj_final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  39344	   1176	  22580	  63100	   f67c	soc_proj_final.elf
+'Finished building: soc_proj_final.elf.size'
+' '
+02:44:45 **** Incremental Build of configuration Debug for project soc_proj_final ****
+make all 
+make: `all' için hiçbir sey yapilmadi.
+02:45:22 **** Auto Build of configuration Debug for project soc_proj_final ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../soc_proj_final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'acorn128_enc_onebyte':
+../src/helloworld.c:78:2: warning: pointer targets in passing argument 3 of 'XAcorn128_enc_onebyte_Write_state_Bytes' differ in signedness [-Wpointer-sign]
+  XAcorn128_enc_onebyte_Write_state_Bytes(&encInst, 0, state, 239);
+  ^
+In file included from ../src/helloworld.c:58:0:
+../../soc_proj_final_bsp/ps7_cortexa9_0/include/xacorn128_enc_onebyte.h:108:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ u32 XAcorn128_enc_onebyte_Write_state_Bytes(XAcorn128_enc_onebyte *InstancePtr, int offset, char *data, int length);
+     ^
+../src/helloworld.c:92:2: warning: pointer targets in passing argument 3 of 'XAcorn128_enc_onebyte_Read_state_Bytes' differ in signedness [-Wpointer-sign]
+  XAcorn128_enc_onebyte_Read_state_Bytes(&encInst, 0, state, 239);
+  ^
+In file included from ../src/helloworld.c:58:0:
+../../soc_proj_final_bsp/ps7_cortexa9_0/include/xacorn128_enc_onebyte.h:109:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ u32 XAcorn128_enc_onebyte_Read_state_Bytes(XAcorn128_enc_onebyte *InstancePtr, int offset, char *data, int length);
+     ^
+../src/helloworld.c: In function 'acorn128_dec_onebyte':
+../src/helloworld.c:111:2: warning: pointer targets in passing argument 3 of 'XAcorn128_dec_onebyte_Write_state_Bytes' differ in signedness [-Wpointer-sign]
+  XAcorn128_dec_onebyte_Write_state_Bytes(&decInst, 0, state, 239);
+  ^
+In file included from ../src/helloworld.c:56:0:
+../../soc_proj_final_bsp/ps7_cortexa9_0/include/xacorn128_dec_onebyte.h:108:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ u32 XAcorn128_dec_onebyte_Write_state_Bytes(XAcorn128_dec_onebyte *InstancePtr, int offset, char *data, int length);
+     ^
+../src/helloworld.c:125:2: warning: pointer targets in passing argument 3 of 'XAcorn128_dec_onebyte_Read_state_Bytes' differ in signedness [-Wpointer-sign]
+  XAcorn128_dec_onebyte_Read_state_Bytes(&decInst, 0, state, 239);
+  ^
+In file included from ../src/helloworld.c:56:0:
+../../soc_proj_final_bsp/ps7_cortexa9_0/include/xacorn128_dec_onebyte.h:109:5: note: expected 'char *' but argument is of type 'unsigned char *'
+ u32 XAcorn128_dec_onebyte_Read_state_Bytes(XAcorn128_dec_onebyte *InstancePtr, int offset, char *data, int length);
+     ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:383:10: warning: unused variable 'sonuc' [-Wunused-variable]
+      int sonuc = ciphertext[msglen+i];
+          ^
+../src/helloworld.c:356:19: warning: unused variable 'success' [-Wunused-variable]
+     unsigned int  success;
+                   ^
+../src/helloworld.c:355:19: warning: unused variable 'maclen' [-Wunused-variable]
+     unsigned char maclen = 16;
+                   ^
+../src/helloworld.c:353:19: warning: unused variable 'mac' [-Wunused-variable]
+     unsigned char mac[16];
+                   ^
+../src/helloworld.c:346:11: warning: unused variable 'j' [-Wunused-variable]
+     int i,j ;
+           ^
+../src/helloworld.c:345:24: warning: unused variable 's' [-Wunused-variable]
+     unsigned long long s[500];
+                        ^
+../src/helloworld.c:344:21: warning: unused variable 'state' [-Wunused-variable]
+     unsigned char t,state[500];
+                     ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: soc_proj_final.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../soc_proj_final_bsp/ps7_cortexa9_0/lib -o "soc_proj_final.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: soc_proj_final.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size soc_proj_final.elf  |tee "soc_proj_final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  39304	   1176	  22580	  63060	   f654	soc_proj_final.elf
+'Finished building: soc_proj_final.elf.size'
+' '
+02:45:39 **** Incremental Build of configuration Debug for project soc_proj_final ****
+make all 
+make: `all' için hiçbir sey yapilmadi.
+02:46:12 **** Incremental Build of configuration Debug for project soc_proj_final ****
+make all 
+make: `all' için hiçbir sey yapilmadi.

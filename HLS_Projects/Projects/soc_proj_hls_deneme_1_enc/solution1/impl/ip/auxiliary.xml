@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="acorn128_enc_onebyte" xd:componentRef="acorn128_enc_onebyte" xd:initiationInterval="4856" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64">
+  <xd:returnValue xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x10" xd:statusOffset="0x14" xd:dataWidth="32"/>
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="state[]" xd:originalName="state" xd:direction="inout" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x200" xd:arraySize="293" xd:dataWidth="8"/>
+  <xd:arg xd:name="plaintextbyte" xd:originalName="plaintextbyte" xd:direction="in" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x400" xd:handshakeRef="ap_none" xd:dataWidth="8"/>
+  <xd:arg xd:name="ciphertextbyte" xd:originalName="ciphertextbyte" xd:direction="in" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x408" xd:handshakeRef="ap_none" xd:dataWidth="8"/>
+  <xd:arg xd:name="ksbyte" xd:originalName="ksbyte" xd:direction="in" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x410" xd:handshakeRef="ap_none" xd:dataWidth="8"/>
+  <xd:arg xd:name="cabyte" xd:originalName="cabyte" xd:direction="in" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x418" xd:handshakeRef="ap_none" xd:dataWidth="8"/>
+  <xd:arg xd:name="cbbyte" xd:originalName="cbbyte" xd:direction="in" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x420" xd:handshakeRef="ap_none" xd:dataWidth="8"/>
+  <xd:latencyEstimates xd:best-case="4855" xd:worst-case="4855" xd:average-case="4855"/>
+  <xd:resourceEstimates xd:LUT="572" xd:FF="421" xd:BRAM="2" xd:DSP="0"/>
+</xd:acceleratorMap>

@@ -1,0 +1,49 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="acorn128_dec_onebyte" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="state"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="acorn128_dec_onebyte" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="plaintextbyte"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="acorn128_dec_onebyte" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="ciphertextbyte"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="acorn128_dec_onebyte" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="ksbyte"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="acorn128_dec_onebyte" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="cabyte"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="acorn128_dec_onebyte" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="cbbyte"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="acorn128_dec_onebyte" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="return"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="acorn128_dec_onebyte" label="">
+<pragma name="UNROLL"/>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

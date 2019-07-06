@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:26:49 MST 2014
+# 
+# Start of session at: Mon May 13 02:46:31 2019
+# Process ID: 7132
+# Log file: C:/vivado_2014.4_workspace/soc_proj_final/soc_proj_final.sdk/webtalk/webtalk.log
+# Journal file: C:/vivado_2014.4_workspace/soc_proj_final/soc_proj_final.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
