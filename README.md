@@ -14,7 +14,7 @@ The hardware architecture is on development and it's not ready to use.
 The Internet of Things (IoT) has become a ubiquitous term to describe the tens of billions of devices that have sensing or actuation capabilities, and are connected to each other via the Internet. The IoT includes everything from wearable fitness bands and smart home appliances to factory control devices, medical devices and even automobiles. Security has not been a high priority for these devices until now [1].
 
 <p align="center"> 
-  <img src="https://dl.dropboxusercontent.com/s/1v2ks1yl8ceiqkt/about-iot.png">
+  <img src="https://dl.dropboxusercontent.com/s/1v2ks1yl8ceiqkt/about-iot.png" width="400">
 </p>
 *Image Credit [2]*
 
@@ -30,7 +30,7 @@ In this project, accelerating a lightweight authenticated cipher, ACORN-128, is 
 Cryptography deals with a set of methods which enable us to store and transmit information while safeguarding it from intruders. That is, we can use cryptography methods to keep information private (say documents, passwords, etc.), and to communicate in a way such that only the intended recipient can read the message [4].
 
 <p align="center"> 
-  <img src="https://dl.dropboxusercontent.com/s/er1fsm2a08o3ne8/JEyGt9Jlnh98Mt9MZHFyL64Ba1520493907_kc.png">
+  <img src="https://dl.dropboxusercontent.com/s/er1fsm2a08o3ne8/JEyGt9Jlnh98Mt9MZHFyL64Ba1520493907_kc.png" width="400">
 </p>
 *Image Credit [4]*
 
@@ -114,7 +114,7 @@ High-level synthesis (HLS) is an automated design process that interprets an alg
 The hardware implementation of the “acorn128_enc_onebyte”s algorithm flow chart is shown in following figure.
 
 <p align="center"> 
-  <img src="https://dl.dropboxusercontent.com/s/irqvbk5l04jioh3/enc.png">
+  <img src="https://dl.dropboxusercontent.com/s/irqvbk5l04jioh3/enc.png" width="400">
 </p>
 
 The hardware implementation of the “acorn128_dec_onebyte”s algorithm flow chart is as same as the “acorn128_enc_onebyte”s algorithm flow chartas shown in figure.
@@ -125,7 +125,7 @@ ZedBoard offers an ARM Cortex-A9 processor to run the non accelerated part of th
 The algorithm flow chart of the encryption part of the software implementation is shown in Figure 7. As seen in the Figure 7, the system does not runs in a parallel manner. Hence the interrupt functionality of the IPs that designed by using Vivado HLS were not used in this design.
 
 <p align="center"> 
-  <img src="https://dl.dropboxusercontent.com/s/9nn3bwl67n6tm4v/sw%20%281%29.png">
+  <img src="https://dl.dropboxusercontent.com/s/9nn3bwl67n6tm4v/sw%20%281%29.png" width="400">
 </p>
 
 The algorithm flow chart of the decryption part of the software implementation of is identical to the Figure 7 except “Encrypt one byte” block. In decryption process, this block decrypts one byte instead of encrypting.
@@ -133,7 +133,7 @@ The algorithm flow chart of the decryption part of the software implementation o
 Flow chart of hardware communication part of the algorithm is shown in Figure 8. The procedure of hardware communication part of the software part for encryption and decryption processes are identical except the instance and the communicated IP.
 
 <p align="center"> 
-  <img src="https://dl.dropboxusercontent.com/s/s7l4mbeplopojiu/sendrecv.png">
+  <img src="https://dl.dropboxusercontent.com/s/s7l4mbeplopojiu/sendrecv.png" width="400">
 </p>
 
 ## 6.	Verification of the Design
@@ -143,29 +143,29 @@ Verification is too important to check the functionality of resultant system tha
 The hardware implementations of the “acorn128_enc_onebyte” and “acorn128_dec_onebyte” is nearly identical. Since the program does not calling these functions at the same time while execution, the identical parts of those functions can be implemented in a third IP to achieve a design that uses less area compared to our current design.
 
 ## 8. References
-**[1]**	https://www.iconlabs.com/prod/internet-secure-things-%E2%80%93-what-really-needed-secure-internet-things 
-[Checked at 19 Apr 2019]
-**[2]**	https://www.applexus.com/services/internet-of-things 
-[Checked at 19 Apr 2019]
-**[3]**	https://onlinelibrary.wiley.com/doi/full/10.1002/sec.1399 
-[Checked at 19 Apr 2019]
-**[4]**	https://www.commonlounge.com/discussion/921db548a81f4d5d91cd03fc22f4b0a1 
-[Checked at 19 Apr 2019]
+**[1]**	https://www.iconlabs.com/prod/internet-secure-things-%E2%80%93-what-really-needed-secure-internet-things \
+[Checked at 19 Apr 2019] \
+**[2]**	https://www.applexus.com/services/internet-of-things  \
+[Checked at 19 Apr 2019] \
+**[3]**	https://onlinelibrary.wiley.com/doi/full/10.1002/sec.1399  \
+[Checked at 19 Apr 2019] \
+**[4]**	https://www.commonlounge.com/discussion/921db548a81f4d5d91cd03fc22f4b0a1  \
+[Checked at 19 Apr 2019] \
 **[5]**	https://blogs.ucl.ac.uk/infosec/2017/03/12/applications-of-cryptography/ 
-[Checked at 19 Apr 2019]
-**[6]**	Please refer the files archived at 
-https://cryptography.gmu.edu/athena/sources/2017_12_11/ACORN_GMU_HLS_v1.0.zip 
-[Checked at 21 Apr 2019]
-**[7]**	eBAEAD: ECRYPT Benchmarking of Authenticated Ciphers. Available at
-https://bench.cr.yp.to/results-caesar.html.
-[Checked at 20 Apr 2019]
-**[8]**	https://en.wikipedia.org/wiki/Amdahl%27s_law 
-[Checked at 21 Apr 2019]
-**[9**]	https://www.xilinx.com/products/intellectual-property/processing_system7.html
-[Checked at 24 Mar 2019]
-**[10**]	https://www.xilinx.com/products/intellectual-property/axi_interconnect.html
-[Checked at 24 Mar 2019]
-**[11]**	https://www.xilinx.com/products/intellectual-property/axi_gpio.html
-[Checked at 24 Mar 2019]
+[Checked at 19 Apr 2019] \
+**[6]**	Please refer the files archived at  \
+https://cryptography.gmu.edu/athena/sources/2017_12_11/ACORN_GMU_HLS_v1.0.zip  \
+[Checked at 21 Apr 2019] \
+**[7]**	eBAEAD: ECRYPT Benchmarking of Authenticated Ciphers. Available at \
+https://bench.cr.yp.to/results-caesar.html. \
+[Checked at 20 Apr 2019] \
+**[8]**	https://en.wikipedia.org/wiki/Amdahl%27s_law  \
+[Checked at 21 Apr 2019] \
+**[9**]	https://www.xilinx.com/products/intellectual-property/processing_system7.html \
+[Checked at 24 Mar 2019] \
+**[10**]	https://www.xilinx.com/products/intellectual-property/axi_interconnect.html \
+[Checked at 24 Mar 2019] \
+**[11]**	https://www.xilinx.com/products/intellectual-property/axi_gpio.html \
+[Checked at 24 Mar 2019] \
 
 
