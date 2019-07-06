@@ -16,7 +16,8 @@ The Internet of Things (IoT) has become a ubiquitous term to describe the tens o
 <p align="center"> 
   <img src="https://dl.dropboxusercontent.com/s/1v2ks1yl8ceiqkt/about-iot.png" width="400">
 </p>
-*Image Credit [2]*
+
+<p align="center">*Image Credit [2]*</p>
 
 There has been a lot of discussion regarding the hacking of devices and systems to obtain information and data. However, just as critical are cyber-attacks against the devices themselves - attacks which take over control of the device and cause them to operate in dangerous and insecure ways.
 
@@ -32,7 +33,8 @@ Cryptography deals with a set of methods which enable us to store and transmit i
 <p align="center"> 
   <img src="https://dl.dropboxusercontent.com/s/er1fsm2a08o3ne8/JEyGt9Jlnh98Mt9MZHFyL64Ba1520493907_kc.png" width="400">
 </p>
-*Image Credit [4]*
+
+<p align="center">*Image Credit [4]*</p>
 
 Cryptography has had many applications over thousands of years of history. The most common applications of cryptography are summarized below.
 * **Secure communications.** The most obvious use of cryptography is encrypting communications between the edges of the communication network. This is most commonly used for communicating between a client program and a server.
@@ -125,7 +127,7 @@ ZedBoard offers an ARM Cortex-A9 processor to run the non accelerated part of th
 The algorithm flow chart of the encryption part of the software implementation is shown in Figure 7. As seen in the Figure 7, the system does not runs in a parallel manner. Hence the interrupt functionality of the IPs that designed by using Vivado HLS were not used in this design.
 
 <p align="center"> 
-  <img src="https://dl.dropboxusercontent.com/s/9nn3bwl67n6tm4v/sw%20%281%29.png" width="400">
+  <img src="https://dl.dropboxusercontent.com/s/9nn3bwl67n6tm4v/sw%20%281%29.png" width="500">
 </p>
 
 The algorithm flow chart of the decryption part of the software implementation of is identical to the Figure 7 except “Encrypt one byte” block. In decryption process, this block decrypts one byte instead of encrypting.
@@ -133,7 +135,7 @@ The algorithm flow chart of the decryption part of the software implementation o
 Flow chart of hardware communication part of the algorithm is shown in Figure 8. The procedure of hardware communication part of the software part for encryption and decryption processes are identical except the instance and the communicated IP.
 
 <p align="center"> 
-  <img src="https://dl.dropboxusercontent.com/s/s7l4mbeplopojiu/sendrecv.png" width="400">
+  <img src="https://dl.dropboxusercontent.com/s/s7l4mbeplopojiu/sendrecv.png" width="150">
 </p>
 
 ## 6.	Verification of the Design
@@ -151,7 +153,7 @@ The hardware implementations of the “acorn128_enc_onebyte” and “acorn128_d
 [Checked at 19 Apr 2019] \
 **[4]**	https://www.commonlounge.com/discussion/921db548a81f4d5d91cd03fc22f4b0a1  \
 [Checked at 19 Apr 2019] \
-**[5]**	https://blogs.ucl.ac.uk/infosec/2017/03/12/applications-of-cryptography/ 
+**[5]**	https://blogs.ucl.ac.uk/infosec/2017/03/12/applications-of-cryptography/ \
 [Checked at 19 Apr 2019] \
 **[6]**	Please refer the files archived at  \
 https://cryptography.gmu.edu/athena/sources/2017_12_11/ACORN_GMU_HLS_v1.0.zip  \
