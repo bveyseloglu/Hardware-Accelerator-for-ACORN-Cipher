@@ -146,28 +146,17 @@ The hardware implementations of the “acorn128_enc_onebyte” and “acorn128_d
 
 ## 8. References
 **[1]**	https://www.iconlabs.com/prod/internet-secure-things-%E2%80%93-what-really-needed-secure-internet-things \
-[Checked at 19 Apr 2019] \
 **[2]**	https://www.applexus.com/services/internet-of-things  \
-[Checked at 19 Apr 2019] \
 **[3]**	https://onlinelibrary.wiley.com/doi/full/10.1002/sec.1399  \
-[Checked at 19 Apr 2019] \
 **[4]**	https://www.commonlounge.com/discussion/921db548a81f4d5d91cd03fc22f4b0a1  \
-[Checked at 19 Apr 2019] \
 **[5]**	https://blogs.ucl.ac.uk/infosec/2017/03/12/applications-of-cryptography/ \
-[Checked at 19 Apr 2019] \
 **[6]**	Please refer the files archived at  \
 https://cryptography.gmu.edu/athena/sources/2017_12_11/ACORN_GMU_HLS_v1.0.zip  \
-[Checked at 21 Apr 2019] \
 **[7]**	eBAEAD: ECRYPT Benchmarking of Authenticated Ciphers. Available at \
 https://bench.cr.yp.to/results-caesar.html. \
-[Checked at 20 Apr 2019] \
 **[8]**	https://en.wikipedia.org/wiki/Amdahl%27s_law  \
-[Checked at 21 Apr 2019] \
-**[9**]	https://www.xilinx.com/products/intellectual-property/processing_system7.html \
-[Checked at 24 Mar 2019] \
-**[10**]	https://www.xilinx.com/products/intellectual-property/axi_interconnect.html \
-[Checked at 24 Mar 2019] \
-**[11]**	https://www.xilinx.com/products/intellectual-property/axi_gpio.html \
-[Checked at 24 Mar 2019] \
+**[9]**	https://www.xilinx.com/products/intellectual-property/processing_system7.html \
+**[10]**	https://www.xilinx.com/products/intellectual-property/axi_interconnect.html \
+**[11]**	https://www.xilinx.com/products/intellectual-property/axi_gpio.html
 
 
