@@ -17,7 +17,7 @@ The Internet of Things (IoT) has become a ubiquitous term to describe the tens o
   <img src="https://dl.dropboxusercontent.com/s/1v2ks1yl8ceiqkt/about-iot.png" width="400">
 </p>
 
-<p align="center">*Image Credit [2]*</p>
+<p align="center">Image Credit [2]</p>
 
 There has been a lot of discussion regarding the hacking of devices and systems to obtain information and data. However, just as critical are cyber-attacks against the devices themselves - attacks which take over control of the device and cause them to operate in dangerous and insecure ways.
 
@@ -34,7 +34,7 @@ Cryptography deals with a set of methods which enable us to store and transmit i
   <img src="https://dl.dropboxusercontent.com/s/er1fsm2a08o3ne8/JEyGt9Jlnh98Mt9MZHFyL64Ba1520493907_kc.png" width="400">
 </p>
 
-<p align="center">*Image Credit [4]*</p>
+<p align="center">Image Credit [4]</p>
 
 Cryptography has had many applications over thousands of years of history. The most common applications of cryptography are summarized below.
 * **Secure communications.** The most obvious use of cryptography is encrypting communications between the edges of the communication network. This is most commonly used for communicating between a client program and a server.
