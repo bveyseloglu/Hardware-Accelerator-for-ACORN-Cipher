@@ -1,5 +1,5 @@
 # Hardware-Architecture-for-ACORN-Cipher
-An accelerator for lightweight cipher algorithm that was made for embedded systems to meet low system requirements. This algorithm is developed by Hongjun Wu. You can get more information from here:
+An accelerator for lightweight cipher algorithm that was made for embedded systems to meet low system requirements. ACORN Cipher algorithm is originally developed by **Hongjun Wu**. You can get more information from here:
 https://www3.ntu.edu.sg/home/wuhj/research/caesar/caesar.html \
 https://cryptography.gmu.edu/athena/index.php?id=CAESAR_source_codes
 
@@ -9,11 +9,11 @@ The development environment that used by me in this project is Vivado Design Sui
 ## Important Notice
 The hardware architecture is on development and it's not ready to use.
 
-## The aut
-
 # About the Project
 ## 1.	Introduction
 The Internet of Things (IoT) has become a ubiquitous term to describe the tens of billions of devices that have sensing or actuation capabilities, and are connected to each other via the Internet. The IoT includes everything from wearable fitness bands and smart home appliances to factory control devices, medical devices and even automobiles. Security has not been a high priority for these devices until now [1].
+
+
 
 There has been a lot of discussion regarding the hacking of devices and systems to obtain information and data. However, just as critical are cyber-attacks against the devices themselves - attacks which take over control of the device and cause them to operate in dangerous and insecure ways.
 
@@ -85,3 +85,35 @@ The system is mainly consisting from 6 IP cores, 4 from the default Xilinx’s I
 | cabyte         | 1              | Unsigned Char | s_axilite | The control bit                            |
 | cbbyte         | 1              | Unsigned Char | s_axilite | The second control bit                     |
 
+* **acorn128_dec_onebyte.** This IP is similar to the previous IP. The function of this IP is also very similar, it decrypts one byte of the input text. The input/output specifications of this hardware is given in Table 4.
+
+|    PORT NAME   | LENGHT (BYTES) | DATA TYPE     | INTERFACE | DESCRIPTION              |
+|:--------------:|:--------------:|---------------|-----------|--------------------------|
+| state          | 239            | Unsigned Char | s_axilite | The state array          |
+| plaintextbyte  | 1              | Unsigned Char | s_axilite | Holds the byte as output |
+| ciphertextbyte | 1              | Unsigned Char | s_axilite | Decrypted byte as output |
+| ksbyte         | 1              | Unsigned Char | s_axilite | The keystream bit        |
+| cabyte         | 1              | Unsigned Char | s_axilite | The control bit          |
+| cbbyte         | 1              | Unsigned Char | s_axilite | The second control bit   |
+
+### 5.2. The Programmable Logic Part
+High-level synthesis (HLS) is an automated design process that interprets an algorithmic description of a desired behavior and creates digital hardware that implements that behavior. HLS is a good tool to design a hardware with less effort compared to the hardware description languages such as VHDL. In this project, the hardware accelerators for the functions that desired to be accelerated were designed by using Vivado HLS and C language.
+
+The hardware implementation of the “acorn128_enc_onebyte”s algorithm flow chart is shown in following figure.
+
+The hardware implementation of the “acorn128_dec_onebyte”s algorithm flow chart is as same as the “acorn128_enc_onebyte”s algorithm flow chartas shown in figure.
+
+### 5.3. The Processing System Part
+ZedBoard offers an ARM Cortex-A9 processor to run the non accelerated part of the program. We used this part of the ZedBoard to run the ACORN128 lightweight authenticated cipher’s top functions that calls the hardware implemented ones.
+
+The algorithm flow chart of the encryption part of the software implementation is shown in Figure 7. As seen in the Figure 7, the system does not runs in a parallel manner. Hence the interrupt functionality of the IPs that designed by using Vivado HLS were not used in this design.
+
+The algorithm flow chart of the decryption part of the software implementation of is identical to the Figure 7 except “Encrypt one byte” block. In decryption process, this block decrypts one byte instead of encrypting.
+
+Flow chart of hardware communication part of the algorithm is shown in Figure 8. The procedure of hardware communication part of the software part for encryption and decryption processes are identical except the instance and the communicated IP.
+
+## 6.	Verification of the Design
+Verification is too important to check the functionality of resultant system that designed. In this project the resultant hardware/software co-design system’s outputs are not matching the reference C code’s outputs. The problem couldn’t be solved. That is, the system works incorrect and outputs only zeros for some reason. As a reason of this situation, execution time comparison between accelerated and the C implementation of the design couldn’t be done in this report.
+
+## 7. Possible Improvements
+The hardware implementations of the “acorn128_enc_onebyte” and “acorn128_dec_onebyte” is nearly identical. Since the program does not calling these functions at the same time while execution, the identical parts of those functions can be implemented in a third IP to achieve a design that uses less area compared to our current design.
